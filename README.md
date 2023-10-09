@@ -1,6 +1,6 @@
 # 프론트엔드 기술 인터뷰 스터디
 
-## 🗝️ Commit Convention
+## 🗝️ Convention
 
 **📌 답변 작성**
 
@@ -8,6 +8,23 @@
 
 _ex. Docs: JavaScript var, let, const 답변 작성_ <br/>
 _ex. Docs: JavaScript 호이스팅 답변 수정_
+
+<br/>
+
+**📌 꼬리 질문-답변 작성**
+
+```markdown
+<br/>
+<details>
+  <summary>꼬리 질문 제목</summary>
+
+- 그에 대한 답변
+
+</details>
+<br/>
+```
+
+- 위의 마크다운 형식 복사하여 작성
 
 <br/>
 

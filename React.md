@@ -24,7 +24,14 @@
 
 ### Virtual DOM이란 무엇이고 Real DOM과의 차이는 무엇인가요?
 
--
+- `Real DOM`
+
+  - 실제 DOM 트리
+  - 브라우저에 직접 접근하므로 DOM 조작 비용이 크고 느릴 수 있음
+
+- `Virtual DOM`
+  - 실제 DOM을 추상화한 가장 트리구조
+  - UI 업데이트는 VDOM에 반영되고 이후 Real DOM과 비교해 변경사항을 최소화하여 효율적으로 업데이트
 
 <br/>
 

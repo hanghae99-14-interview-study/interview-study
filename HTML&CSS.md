@@ -107,3 +107,11 @@
       margin: $item-mg;
     }
     ```
+
+<br/>
+<details>
+  <summary>Sass란 무엇인가요?</summary>
+
+- CSS를 확장한 언어이며, CSS를 효율적으로 사용할 수 있도록 도와주는 도구입니다.
+
+</details>

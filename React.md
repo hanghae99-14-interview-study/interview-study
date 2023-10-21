@@ -183,7 +183,17 @@
 
 ### SSR, CSR, SSG의 장단점을 설명해주세요.
 
--
+- `SSR(Server Side Rendering)` : 서버 측에서 렌더링 하는 방식
+  - 장점 : 초기 로딩 속도가 빠름, SEO 최적화
+  - 단점 : 서버 부하 높음
+
+- `CSR(Client Side Rendering)` : 클라이언트 측에서 렌더링 하는 방식
+  - 장점 : 빠르고 자연스러운 페이지 전환, 서버 부하 낮음 
+  - 단점 : 초기 로딩 속도가 느림, SEO 어려움
+
+- `SSG(Static Site Generation)` : 페이지를 미리 생성하여 정적 파일로 제공하는 방식
+  - 장점 : 서버에 대한 부하가 CSR, SSR 보다 낮음
+  - 단점 : 모든 URL에 대해 개별 HTML 파일을 생성 필요
 
 ### SPA, CSR, SSR의 차이점을 설명해주세요.
 
